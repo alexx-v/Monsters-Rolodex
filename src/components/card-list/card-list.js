@@ -5,7 +5,6 @@ import { Card } from '../card/card';
 import './card-list.css';
 
 export const CardList = (props) => {
-	// console.log(children);
 	return (
 		<div className='card-list'>
 			{props.monsters.map((monster) => (
